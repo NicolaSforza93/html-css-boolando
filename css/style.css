@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     max-width: 750px;
     margin: 0 auto;
@@ -32,6 +36,17 @@ header {
 
 a {
     text-decoration: none;
+}
+
+.col.link a {
+    font-size: 12px;
+    padding: 4px;
+    color: white;
+    font-weight: 500;
+}
+
+.icon {
+    color: white;
 }
 
 nav .row {
@@ -117,9 +132,13 @@ nav .row {
     font-size: 10px;
 }
 
+.details h1 {
+    font-weight: 900;
+}
+
 .price {
     color: red;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .price-crossed {
