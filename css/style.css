@@ -18,6 +18,8 @@ img {
     width: 100%;
 }
 
+/* HEADER */
+
 header {
     background-color: #ff6900;
     padding: 10px;
@@ -36,12 +38,14 @@ nav .row {
     justify-content: space-between;
 }
 
+/* MAIN */
+
 .main-content section {
     padding: 35px;
 }
 
 .main-content .col-4 {
-    padding: 10px;
+    padding: 6px;
 }
 
 .col-4 {
@@ -83,6 +87,16 @@ nav .row {
     color: white;
 }
 
+.eco-two {
+    position: absolute;
+    bottom: 25px;
+    display: block;
+    font-size: 9px;
+    padding: 4px 6px;
+    background-color: green;
+    color: white;
+}
+
 
 .overlay {
     position: absolute;
@@ -105,6 +119,7 @@ nav .row {
 
 .price {
     color: red;
+    font-weight: bold;
 }
 
 .price-crossed {
@@ -123,11 +138,11 @@ nav .row {
     min-height: 400px;
 }
 
-.debug .main-content .col-4 {
+/* .debug .main-content .col-4 {
     min-height: 200px;
     background-color: gray;
     border: 1px solid black;
-}
+} */
 
 /* .debug header {
     min-height: 100px;
