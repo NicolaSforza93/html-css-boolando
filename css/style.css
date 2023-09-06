@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+	flex-basis: calc((100% / 12) * 4);
+}
+
+
+
+
+
+/* DEBUG */
+
+.debug .main-content {
+    background-color: white;
+    min-height: 400px;
+}
+
+.debug .main-content .col-4 {
+    min-height: 200px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.debug header {
+    background-color: orange;
+    min-height: 100px;
+}
+
+.debug footer {
+    background-color: black;
+    min-height: 100px;
+}
+
