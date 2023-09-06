@@ -14,9 +14,103 @@
     flex-wrap: wrap;
 }
 
+img {
+    width: 100%;
+}
+
+header {
+    background-color: #ff6900;
+    padding: 10px;
+}
+
+.logo {
+    width: 80px;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .row {
+    justify-content: space-between;
+}
+
+.main-content section {
+    padding: 35px;
+}
+
+.main-content .col-4 {
+    padding: 10px;
+}
+
 .col-4 {
 	flex-basis: calc((100% / 12) * 4);
 }
+
+.card.image {
+    position: relative;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    display: block;
+    font-size: 20px;
+    background-color: white;
+    padding: 2px 7px;
+}
+
+.discount {
+    position: absolute;
+    bottom: 25px;
+    display: block;
+    font-size: 9px;
+    padding: 4px 6px;
+    background-color: red;
+    color: white;
+}
+
+.eco {
+    position: absolute;
+    bottom: 25px;
+    left: 34px;
+    display: block;
+    font-size: 9px;
+    padding: 4px 6px;
+    background-color: green;
+    color: white;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.card:hover .overlay {
+    opacity: 1;
+}
+
+.heart-icon:hover {
+    color: red;
+}
+
+.details * {
+    font-size: 10px;
+}
+
+.price {
+    color: red;
+}
+
+.price-crossed {
+    text-decoration: line-through;
+}
+
 
 
 
@@ -35,10 +129,9 @@
     border: 1px solid black;
 }
 
-.debug header {
-    background-color: orange;
+/* .debug header {
     min-height: 100px;
-}
+} */
 
 .debug footer {
     background-color: black;
