@@ -45,12 +45,21 @@ a {
     font-weight: 500;
 }
 
-.icon {
-    color: white;
-}
+/* header {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+} */
 
 nav .row {
     justify-content: space-between;
+}
+
+.icon {
+    color: white;
+    padding: 2px;
+    font-size: 10px;
 }
 
 /* MAIN */
@@ -145,6 +154,42 @@ nav .row {
     text-decoration: line-through;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+}
+
+footer .row {
+    justify-content: space-between;
+}
+
+address * {
+    font-style: normal;
+}
+
+address h1 {
+    font-size: 10px;
+}
+
+address a {
+    color: white;
+    font-size: 8px;
+    margin-right: 5px;
+}
+
+.social p {
+    font-size: 8px;
+    padding: 0px 3px;
+}
+
+.social .icon {
+    background-color: white;
+    color: black;
+    padding: 0px 1px;
+}
 
 
 
@@ -152,10 +197,10 @@ nav .row {
 
 /* DEBUG */
 
-.debug .main-content {
+/* .debug .main-content {
     background-color: white;
     min-height: 400px;
-}
+} */
 
 /* .debug .main-content .col-4 {
     min-height: 200px;
@@ -167,8 +212,8 @@ nav .row {
     min-height: 100px;
 } */
 
-.debug footer {
+/* .debug footer {
     background-color: black;
     min-height: 100px;
-}
+} */
 
